@@ -24,6 +24,21 @@ sort(10, 10, 10, 25)     # => "SPECIAL" (heavy)
 sort(100, 100, 100, 20)  # => "REJECTED"
 ```
 
+## How to run
+
+```python
+python -c "from sort import sort; print(sort(10, 10, 10, 5))"
+```
+
+Or import it in your own script:
+
+```python
+from sort import sort
+
+result = sort(width=50, height=50, length=50, mass=10)
+print(result)  # "STANDARD"
+```
+
 ## Tests
 
 ```
